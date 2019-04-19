@@ -11,7 +11,11 @@ g++ asm_mac_gen.cpp -O2 -std=c++11 -o macgen
 
 # Optional aguments
 -ident  (fixes identantion) 
+
 -tab2ws (converts hard tabs to whitespace)
+
  -wsdepth depth (number of whitespaces in a tab (defaults to 4))
+ 
  -nohints (disables comments/hints in the generated file)
+ 
  
